@@ -1,5 +1,5 @@
 {% set name = "qpytorch" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name|lower }}/qpytorch-{{ version }}.tar.gz
-  sha256: 600e7851b92a9b26d5a20992a75cb947692154d136160d5a1211c0dbc019023d
+  sha256: 0f4096181286d69b0581e961e1a05ba2628119cd6ffdc19b2781bb254f9dabcc
 
 build:
   noarch: python
